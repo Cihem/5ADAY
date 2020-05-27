@@ -13,7 +13,7 @@ const ApiNutrition = () => {
 
 
 const [nutritions, setNutritions] = useState([])
-const [ingr, setSubmit] = useState('')
+const [ingr, setSubmit] = useState('') 
 const [inquiry, setInquiry] = useState('1 apple')
 
 useEffect( () => {
