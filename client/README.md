@@ -1,8 +1,11 @@
+# 5ADAY
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-### Introduction
+## Introduction
 
-The app is designed for users who wants to eat better and have a better lifestyle. The users are able to track their nutritions and calories with the choosen ingredients, and they will also get a recipe and tips to have to be able to relax and improve their lifestyle. Feature will include a dashboard where the users can save the nutrition and calories data, and a shopping list that allow users to add groceries to shopping list manually
+The app is designed for users who wants to eat better and have a better lifestyle. The users are able to track their nutritions and calories with the choosen ingredients. They can also look for recipes, and check fruits and vegetables per seasons.
+Feature will include a dashboard where the users can save the nutrition and calories data, and a shopping list that allow users to add groceries to shopping list manually
 
 ### Available Scripts
 
