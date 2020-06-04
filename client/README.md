@@ -29,8 +29,6 @@ Open [http://localhost:3000](http://localhost:5000) to view the data in the brow
 
 ### Database layout
 
-DO NOT NPM MIGRATE, IT WILL DELETE THE TABLE CREATED
-
 see table details on database.js
 
 route are on users.js file.
