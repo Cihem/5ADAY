@@ -32,9 +32,7 @@ return (
 
      
      <Switch>
-        <Route path="/home">
-        <Home />
-        </Route>
+        
 
        <Route path="/season">
        <ApiSeason />
@@ -63,7 +61,9 @@ return (
        <Route path="/nutrition">
        <ApiNutrition />
        </Route>
-
+       <Route path="/">
+        <Home />
+        </Route>
        
        </Switch>
       

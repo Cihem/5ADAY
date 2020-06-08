@@ -3,12 +3,30 @@
 
 5 a day and more... Reach your Goal
 
-## Setup
+## Introduction
+
+The app is designed for users who wants to eat better and have a better lifestyle. The users are able to track their nutritions and calories with the choosen ingredients. They can also look for recipes, and check fruits and vegetables per seasons.
+Feature will include a dashboard where the users can save the nutrition and calories data, and a shopping list that allow users to add groceries to shopping list manually
+
+### Available Scripts
+
+In the project directory, you can run:
 
 ### Dependencies
 
-- Run `npm install` in project directory. This will install server-related dependencies such as `express`.
-- `cd client` and run `npm install`. This will install client dependencies (React).
+Run yarn on root folder to install dependencies related to Express.
+
+cd client and run yarn install dependencies related to React.
+
+### Run Your Development Servers
+
+Run yarn start in project directory to start the Express server on port 5000.
+
+cd client and run yarn start to start the client server.
+
+Open [http://localhost:3000](http://localhost:3000)to view the client in the browser.
+
+Open [http://localhost:3000](http://localhost:5000) to view the data in the browser.
 
 ### Database Prep
 

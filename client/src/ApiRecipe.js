@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import Recipe from "./Recipe"
 
-const Api = () => {
+const ApiRecipe = () => {
 
   const APP_ID = "f306dbf4";
   const APP_KEY = "b44d9e2b3d833c866f2104b0189893a7";
@@ -70,4 +70,4 @@ const getSearch = e => {
 }
   
 
-export default Api;
+export default ApiRecipe;
