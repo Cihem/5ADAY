@@ -19,7 +19,7 @@ con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
 
-  let sql = `DROP TABLE if exists 5aday; CREATE TABLE into seasons (id INT NOT NULL AUTO_INCREMENT, image VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, description VARCHAR(1000) NOT NULL, list VARCHAR(1000)NOT NULL, PRIMARY KEY (id));`;
+  let sql = `DROP TABLE if exists seasons; CREATE TABLE into seasons (id INT NOT NULL AUTO_INCREMENT, image VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, description VARCHAR(1000) NOT NULL, list VARCHAR(1000)NOT NULL, PRIMARY KEY (id));`;
 
             `INSERT INTO seasons (image, title, description, list) VALUES ('https://www.juiceplus.com/content/juiceplusblog/en/2019/3/the-ultimate-fruit-and-vegetable-season-calendar/_jcr_content/par/image.img.jpg/1553178913562.jpg', 'FRUITS AND VEGETABLES AVAILABLE IN WINTER', 'Fruits and vegetables available in the winter months consist of lots of fruits you’d typically associate with Christmas (clementines, cranberries), but also lots of earthy vegetables like turnips, parsnips and leeks. There are some lovely winter warming recipes you can cook with these!', 'Apple
             Pears
