@@ -16,7 +16,7 @@ export default class ApiSeason extends Component {
     
 
     getSeason = () => {
-        fetch(`/users/${this.props.id}`)
+        fetch(`/seasons/${this.props.id}`)
         .then(response => response.json())
         .then(response => {
             this.setState({ season: response})
