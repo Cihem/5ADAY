@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, "/client/build")));
 
 
 app.use('/', indexRouter);
-app.use('/seasons', seasonsRouter);
+app.use('/api/seasons', seasonsRouter);
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname + "/client/build/index.html"));
